@@ -13,8 +13,8 @@ namespace TimerRemovedFromDispatcher {
 		public MainWindow() {
 			InitializeComponent();
 
-			//setTimer(() => dispatcher?.InvokeAsync(workOnMyThread)); //A - working
-			INITIALIZED += () => setTimer(workOnMyThread); //B - not working, timer removed from dispatcher after first exit from mainLoop()
+			setTimer(() => dispatcher?.InvokeAsync(workOnMyThread)); //A - working
+			//INITIALIZED += () => setTimer(workOnMyThread); //B - not working, timer removed from dispatcher after first exit from mainLoop()
 
 			thread = new Thread(() => {
 				dispatcher = Dispatcher.CurrentDispatcher;
