@@ -1,0 +1,67 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Test Package Info",
+	"type": "object",
+	"properties": {
+		"$schema": { "type": "string" },
+		"args": {
+			"type": "string",
+			"description": "SAR arguments, same as used when starting via console."
+		},
+		"remove": {
+			"type": "array",
+			"items": { "type": "string" },
+			"description": "Paths to files/folders to remove from D5 directory."
+		},
+		"exclude": {
+			"type": "array",
+			"items": { "type": "string" },
+			"description": "Paths in destination D5 directory that should not be changed."
+		},
+		"include": {
+			"type": "array",
+			"items": { "type": "string" },
+			"description": "Exceptions to exclusions; paths that should be copied."
+		},
+		"loadMethods": {
+			"type": "array",
+			"items": {
+				"type": "array",
+				"prefixItems": [
+					{
+						"type": "string",
+						"enum": [ "missing", "always", "inherit", "newer" ]
+					},
+					{ "type": "string" }
+				],
+				"minItems": 2,
+				"maxItems": 2
+			},
+			"description": "Dynamic load conditions in [method, path] format."
+		},
+		"info": {
+			"type": "string",
+			"description": "Optional human-readable info about the test package."
+		},
+		"description": {
+			"type": "string",
+			"description": "Detailed description of the test package."
+		},
+		"commands": {
+			"type": "array",
+			"items": {
+				"type": "array",
+				"items": [
+				  { "type": "integer", "description": "Delay in ms" },
+				  { "type": "string", "description": "Command string" }
+				],
+				"minItems": 2,
+				"maxItems": 2,
+				"additionalItems": false
+			},
+			"description": "Commands to run after test load, in [delay, command] format."
+		}
+	},
+	"required": [ "args" ],
+	"additionalProperties": false
+}
