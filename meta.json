@@ -11,7 +11,39 @@
   },
   "nonTechnical": {
     "sentence": "Publiczne repozytorium kt\u00F3rego zawarto\u015B\u0107 widoczna jest dla wszystkich u\u017Cytkownik\u00F3w w internecie bez koniczno\u015Bci bycia cz\u0142onkiem organizacji CNC Profi.",
-    "info": null,
+    "info": "Aktualnie jest tu tylko kilka mini-projekt\u00F3w, prezentuj\u0105cych pewne specyficzne problemy jakie napotka\u0142em podczas pracy i prosi\u0142em o pomoc w rozwi\u0105zaniu na publicznym forum.\r\n\r\nTeoretycznie mo\u017Cemy umie\u015Bci\u0107 tu dowolne rzeczy, kt\u00F3re chcieliby\u015Bmy udost\u0119pni\u0107 u\u017Cytkownikom jak np. dodatkowe kody pokazowe czy instrukcje/samouczki, albo pozwoli\u0107 na zg\u0142aszanie problem\u00F3w z naszymi aplikacjami przy pomocy narz\u0119dzi wbudowanych w GitHub.   \r\n\r\n\r\n",
     "details": null
+  },
+  "stats": {
+    "lastScan": "2026-08-21T19:28:16.9964513+02:00",
+    "relativeSize": 0.9778503776525597,
+    "files": {
+      "total": 36,
+      "code": 17,
+      "config": 13,
+      "doc": 3,
+      "media": 2,
+      "other": 1
+    },
+    "lines": {
+      "total": 1305,
+      "code": 524,
+      "config": 673,
+      "doc": 108,
+      "media": 0,
+      "other": 0
+    },
+    "code": {
+      "types": 0,
+      "members": 0,
+      "methods": 0
+    },
+    "updates": {
+      "any": "2026-08-21T12:37:13.8194997Z",
+      "code": "2026-06-30T03:09:20.697467Z",
+      "config": "2026-08-21T12:37:13.8194997Z",
+      "other": "0001-01-01T00:00:00"
+    },
+    "created": "2026-06-30T03:09:20.6144695Z"
   }
 }

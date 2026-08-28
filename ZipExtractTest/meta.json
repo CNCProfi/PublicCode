@@ -3,7 +3,73 @@
     "overall": "UNKNOWN",
     "percentage": 0
   },
-  "tags": [],
+  "tags": [
+    {
+      "symbol": "\uD83D\uDDA5\uFE0F",
+      "abr": "app",
+      "name": "Application",
+      "fullName": "Application",
+      "info": {
+        "sentence": "Can be run as stand alone application.",
+        "info": null,
+        "details": null
+      },
+      "uniqueShortName": "",
+      "bracketedShortName": ""
+    },
+    {
+      "symbol": "\uD83D\uDD79\uFE0F",
+      "abr": "gui",
+      "name": "Graphical Interface",
+      "fullName": "Graphical Interface",
+      "info": {
+        "sentence": "Graphical user interface.",
+        "info": null,
+        "details": null
+      },
+      "uniqueShortName": "",
+      "bracketedShortName": ""
+    },
+    {
+      "symbol": "\uD83C\uDFED",
+      "abr": "tpl",
+      "name": "Template",
+      "fullName": "Template",
+      "info": {
+        "sentence": "Act as template or example usage reference.",
+        "info": null,
+        "details": null
+      },
+      "uniqueShortName": "",
+      "bracketedShortName": ""
+    },
+    {
+      "symbol": "\u26D1\uFE0F",
+      "abr": "hlp",
+      "name": "Help",
+      "fullName": "Help",
+      "info": {
+        "sentence": "Involving support for end users, including in-app information, problem reporting and accessibility features.",
+        "info": null,
+        "details": null
+      },
+      "uniqueShortName": "",
+      "bracketedShortName": ""
+    },
+    {
+      "symbol": "\uD83D\uDC8E",
+      "abr": "stb",
+      "name": "Stable",
+      "fullName": "Stable",
+      "info": {
+        "sentence": "Project has a crystalized form and is not expected to be changed in any significant way.",
+        "info": null,
+        "details": null
+      },
+      "uniqueShortName": "",
+      "bracketedShortName": ""
+    }
+  ],
   "info": {
     "sentence": "",
     "info": null,
@@ -13,5 +79,37 @@
     "sentence": "Rozwi\u0105zany problem z rozpakowywaniem archiw\u00F3w .zip w zale\u017Cno\u015Bci od tego jaki program zosta\u0142 u\u017Cyty to pakowania.",
     "info": null,
     "details": null
+  },
+  "stats": {
+    "lastScan": "2026-08-21T17:28:10.8140021Z",
+    "relativeSize": 0.4076645930210814,
+    "files": {
+      "total": 9,
+      "code": 3,
+      "config": 3,
+      "doc": 2,
+      "media": 0,
+      "other": 1
+    },
+    "lines": {
+      "total": 327,
+      "code": 101,
+      "config": 123,
+      "doc": 103,
+      "media": 0,
+      "other": 0
+    },
+    "code": {
+      "types": 0,
+      "members": 0,
+      "methods": 0
+    },
+    "updates": {
+      "any": "2026-08-21T12:37:13.8194997Z",
+      "code": "2026-06-30T03:09:20.697467Z",
+      "config": "2026-08-21T12:37:13.8194997Z",
+      "other": "2026-06-30T03:09:20.6994655Z"
+    },
+    "created": "2026-06-30T03:09:20.6854659Z"
   }
 }
